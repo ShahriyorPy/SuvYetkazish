@@ -27,6 +27,6 @@ urlpatterns = [
     path('suv/<int:pk>/',SuvAPIView.as_view()),
     path('mijozlar/', MijozlarAPIView.as_view()),
     path('mijoz/<int:pk>/', MijozAPIView.as_view()),
-    path('admin/<int:pk>/', AdminAPIView.as_view()),
+    path('adminn/<int:pk>/', AdminAPIView.as_view()),
     path('haydovchi/<int:pk>/',HaydovchiAPIView.as_view())
 ]
